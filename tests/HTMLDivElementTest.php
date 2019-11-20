@@ -7,7 +7,6 @@ class HTMLDivElementTest extends TestCase
 {
     public function testClasses()
     {
-//        $class = '';
         $class = 'one two';
         $div = new HTMLDivElement(['class' => $class]);
         $this->assertEquals($class, $div->getAttribute('class'));
