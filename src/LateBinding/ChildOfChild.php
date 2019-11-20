@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\lateBinding;
+namespace App\LateBinding;
 
 
 class ChildOfChild extends FirstChild
